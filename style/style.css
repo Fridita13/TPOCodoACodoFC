@@ -1,0 +1,45 @@
+*{
+    font-family:'Calibri';
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width:100%;
+    left:0;
+}
+
+container{
+    text-align: center;
+}
+
+.nav{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none
+}
+
+footer{
+    background-color:black;
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+
+}
+.redsocial{
+    color: white;
+    background-color: black;
+    text-align: right;
+}
