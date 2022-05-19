@@ -14,7 +14,7 @@ header{
 }
 
 container{
-    text-align: center;
+    display:grid;
 }
 
 .nav{
@@ -24,7 +24,6 @@ container{
     text-align: center;
     margin: 5px;
     padding: 5px;
-    text-decoration: none
 }
 
 footer{
@@ -35,11 +34,19 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 0;
 
 }
 .redsocial{
     color: white;
     background-color: black;
     text-align: right;
+    text-decoration: none;
+}
+
+.redsocial a {
+    color:white;
+    margin: 0px 6px;
+    font-size: 2vw;
 }
