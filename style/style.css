@@ -50,3 +50,11 @@ footer{
     margin: 0px 6px;
     font-size: 2vw;
 }
+
+label, input {
+    font-size: 1.0vw;
+}
+
+input[type=name], input[type=mail], input[type=textarea]{
+    width: 80%
+}
