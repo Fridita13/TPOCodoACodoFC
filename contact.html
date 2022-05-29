@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis series favoritas </title>
     <link rel="stylesheet" href="style/style.css">
     <script src="https://kit.fontawesome.com/136bf7e27c.js" crossorigin="anonymous"></script>
-    <title>Mis películas favoritas  </title>
 </head>
 <body>
     <header>
-      <nav class="container">
-            
-        <a class="nav" href="index.html"> Home</a>
-        <a class="nav" href="about.html">Acerca de mí</a>
-        <a class="nav" href="contact.html">Contacto</a>
-        <a class="redsocial" href="https://github.com/Fridita13"> <i class="fa-brands fa-github fa-2xl" aria-hidden="true"></i></a>
-        <a class="redsocial" href="https://www.linkedin.com/in/frida-cernigoi-a287326b/" ><i class="fa-brands fa-linkedin fa-2xl" aria-hidden="true"></i></a>
+        <div class="container">
+          <nav>
+            <a href="index.html"> Home</a>
+            <a href="about.html">Acerca de mí</a>
+            <a href="contact.html">Contacto</a>
+    </nav>
+    </div>
+    <div class="redsocial">
+        <a href="https://github.com/Fridita13"> <i class="fa-brands fa-github fa-xl fa-beat" style="--fa-animation-duration: 2s;" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/frida-cernigoi-a287326b/" ><i class="fa-brands fa-linkedin fa-xl fa-beat" style="--fa-animation-duration: 2s;" aria-hidden="true"></i></a>
+    </div>
+</header>
 
-</nav>
-
-    </header>
-    <menu>
+    <section id="formulario">
         <h2>Contacto</h2>
-        <form action="formulario.html" target="_blank">
+        <form action="" method="get">
             <ul>
              <li>
                <label for="name">Nombre:</label>
@@ -33,21 +35,25 @@
                <label for="mail">Correo electrónico:</label>
                <input type="email" id="mail" name="user_mail" placeholder="Ingrese su email">
              </li>
-             <li>
+             <br>
                <label for="msg">Mensaje:</label>
                <textarea id="msg" name="user_message" placeholder="Deje su mensaje"></textarea>
-             </li>
+             
             </ul>
            </form>
 
-           <li class="button">
+           <div class="button">
             <button type="submit">Envíe su mensaje</button>
-          </li>
+           </div>
         <br><br><br><br><br><br><br>
-        </menu>
-        <footer>
-            <br>
-            <p> Derechos reservados @2022 </p>
-        </footer>
+          </section>
+        
 </body>
+<footer>
+
+  <div class="container">
+      <p> Derechos reservados @2022 </p>
+      </div>
+  </footer>
+
 </html>
